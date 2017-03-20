@@ -1,0 +1,76 @@
+body{
+	background-image: url(../images/fon.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+.wrapp{
+	max-width: 40%;
+	width: 100%;
+	margin: 0 auto;
+	padding: 20px;
+	word-wrap: break-word;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 70%;
+
+}
+.inOne{
+	display: flex;
+	width: 100%;
+	
+	max-width: 100%
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.save{
+	display: block;
+	float: left;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.deleteAll{
+	display: block;
+	margin-top: 20px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.ulOne{
+	display: block;
+	background: rgba(#F5F5DC, 0, 0, 0.5);
+	max-width: 100%;
+	width: 100%;
+
+}
+* {
+	 font-size: 30px;
+}
+li{
+	list-style: none;
+	margin-top: 25px;  
+	white-space:pre-wrap;
+	background-color: rgba(165, 202, 250, 0.8); 
+
+}
+.del{
+	margin-left: 15px; 
+	font-size: 15px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+.edit{
+	margin-left: 15px; 
+	font-size: 15px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+

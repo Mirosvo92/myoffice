@@ -1,0 +1,91 @@
+@import url(reset.css);
+/* Это комментарий */
+	body{
+		background: url(../images/bg.png);
+		position: relative;	 
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		z-index: 10;
+	}
+	.main{
+		margin: auto;
+		width: 70%;
+		min-height: 550px;
+ 		max-height: 1000px;
+		
+		display:flex;
+		justify-content: center;
+    	align-items: center;
+		
+    
+    	
+	}
+   .leftBox{
+   		color: #fff;
+   	    height: 250px;
+    	flex: 1 1 0;
+    	display:flex;
+   	    justify-content: center;
+   	    align-items: center;
+    
+   }
+
+   .rightBox{
+    	color: #fff;
+    	height: 250px;
+    	flex: 1 1 0;
+   	    display:flex;
+    	justify-content: center;
+    	align-items: center;
+   }
+   a{
+		 text-decoration: none;
+		 color: white;
+		 font-size: 25px;
+		 padding: 10px;
+		 border-radius: 23px 23px 23px 23px;
+		 
+   }
+   a:hover{
+		 background-color: #fff;
+		 color: #000;
+   }
+	.yetTest{
+
+		opacity: .6;
+	}
+	.openWind{
+		padding: 10px;
+		background-color: grey;
+		border:2px solid black;
+		width: 120px;
+		text-align: center;
+		cursor: pointer;
+	}	
+	.windInfo{
+		display: none;
+			
+	}
+	.activ{
+		display:  block;
+		height: 50%;
+		width: 50%;
+		position: absolute;		
+		border: 2px solid black;
+		left: 26%;
+		top:50%;
+		background-color: rgba(201, 275, 355, 0.8);
+		color: black;
+		z-index: 11;
+		padding: 5px;
+		border-radius: 5px;
+		border: 1px solid #a1a1a1;
+		box-shadow: 0 0 10px #444;
+	}
+	.clossWindoe{
+		padding: 5px;
+		text-decoration: none;
+		background-color: red;
+	}
